@@ -1,0 +1,37 @@
+<html>
+<head>
+<script type="text/javascript">
+
+let petNames = ["fido", "marmaduk", "luna"];// Because you start from 0 number boby name started at that//
+let petName = new Array (["0","1","2"]);// This is numbers how you red them starting from 0//
+console.log(petNames["2"]);// This line shows only second item in Array//
+console.log(petNames.length);  // this line function shows how many items are in the Array//
+                               
+// So if you have this html page nothing would be printed on the page//
+// however if you open webpage click right button and click inspect//
+//go to pop window and click on console you should be able to read there//
+// name luna and number 3 that shows how many items are in Array function//
+
+// if you want to see the whole Array in a console you can do it like in example below//
+console.log(petNames);
+// if you want to see always last item in an Array where you might have many items than use this example below//
+console.log(petNames[petNames.length-1]);
+//code below show you first Item in the Array in the console of the webpage//
+console.log(petNames["0"]); 
+
+petNames.forEach( i => console.log(i)); // this function do something with each item in the Array//
+    
+
+// you can also write Loop function to have items in the index to be able see all items in the console//
+
+for (let i=0;i<petNames.length;i++) {
+console.log(petNames[i]);
+}
+</script>
+
+</head>
+<body>
+
+</body>
+
+</html>
